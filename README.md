@@ -1,8 +1,8 @@
 # RetoHackathonCohorte3
-Reto Hackathon Cohorte 3: Optimización de la Comercialización del Polen
+## Optimización de la Comercialización del Polen
 
 # OBJETIVO GENERAL:
-### Los participantes deben desarrollar una solución que ayude a apicultores a optimizar la producción y venta de polen a lo largo del año. La solución debe abordar tres aspectos clave: programación de la reactivación de colmenas, tiempos óptimos de recolección del polen y disponibilidad del producto para su comercialización.
+### Desarrollar una solución que ayude a apicultores a optimizar la producción y venta de polen a lo largo del año. La solución debe abordar tres aspectos clave: programación de la reactivación de colmenas, tiempos óptimos de recolección del polen y disponibilidad del producto para su comercialización.
 ###
 # OBJETIVOS ESPECÍFICOS:
 ###
