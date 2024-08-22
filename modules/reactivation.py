@@ -1,4 +1,4 @@
-import pandas as pd
+"""import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
 def suggest_reactivation(data):
@@ -17,4 +17,4 @@ def suggest_reactivation(data):
     predictions = model.predict(data)
     best_time = predictions.argmax()
 
-    return {'best_reactivation_time': best_time}
+    return {'best_reactivation_time': best_time}"""
