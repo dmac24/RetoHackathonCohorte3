@@ -26,7 +26,7 @@ h1 > a {
   }
   
 .intro-section {
-    background-image: url(https://i.ibb.co/t2tbbh6/pexels-luis-quintero-2471234.jpg);
+    background-image: url(src/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,10 +37,10 @@ h1 > a {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column;
-    color: #ffffff; }
+    color: #ff9500; }
     @media (max-width: 991px) {
     .intro-section {
-        padding-left: 50px;
+        padding-left: 20px;
         padding-right: 50px; } }
     @media (max-width: 767px) {
       .intro-section {
@@ -63,39 +63,30 @@ h1 > a {
     margin-bottom: auto; }
 
     .intro-content-wrapper .intro-title {
-      font-size: 40px;
+      color:  #ed8a00;
+      -webkit-text-stroke-width: 0.0001px;
+    -webkit-text-stroke-color: #ed8a00;
+      font-size: 50px;
       font-weight: bold;
       margin-bottom: 17px; }
     .intro-content-wrapper .intro-text {
-      font-size: 19px;
-      line-height: 1.37; }
+        color: #000000;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 1.37; }
     .intro-content-wrapper .btn-read-more {
-      background-color: #fff;
+      background-color: #000000;
       padding: 13px 30px;
-      border-radius: 0;
+      border-radius: 10px;
       font-size: 16px;
       font-weight: bold;
-      color: #000; }
+      color: #ed8a00; }
       .intro-content-wrapper .btn-read-more:hover {
-        background-color: transparent;
-        border: 1px solid #fff;
-        color: #fff; }
+        background-color: #ed8a00;
+        border: 1px solid #ed8a00;
+        color: #000000; }
   
-     @media (max-width: 767px) {
-    .intro-section-footer {
-      margin-top: 35px; } }
-  
-    .intro-section-footer .footer-nav a {
-    font-size: 20px;
-    font-weight: bold;
-    color: inherit; }
-    @media (max-width: 767px) {
-    .intro-section-footer .footer-nav a {
-        font-size: 14px; } }
-    .intro-section-footer .footer-nav a + a {
-      margin-left: 30px; }
-
-.form-section {
+  .form-section {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -139,52 +130,16 @@ h1 > a {
   .login-btn {
     padding: 13px 30px;
     background-color: #000;
-    border-radius: 0;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #fff; }
+    color: #ed8a00; }
   .login-btn:hover {
-      border: 1px solid #000;
-      background-color: transparent;
+      border: 1px solid #ed8a00;
+      background-color: #ed8a00;
       color: #000; }
   
   .forgot-password-link {
     font-size: 14px;
     color: #080808;
-    text-decoration: underline; }
-  
-  .social-login-title {
-    font-size: 15px;
-    color: #919aa3;
-    display: -webkit-box;
-    display: flex;
-    margin-bottom: 23px; }
-  .social-login-title::before, .social-login-title::after {
-      content: "";
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
-      background-image: linear-gradient(#f4f4f4, #f4f4f4);
-      -webkit-box-flex: 1;
-              flex-grow: 1;
-      background-size: calc(100% - 20px) 1px;
-      background-repeat: no-repeat; }
-    .social-login-title::before {
-      background-position: center left; }
-    .social-login-title::after {
-      background-position: center right; }
-  
-  .social-login-links {
-    text-align: center;
-    margin-bottom: 32px; }
-  
-  .social-login-link img {
-    width: 40px;
-    height: 40px;
-    -o-object-fit: contain;
-       object-fit: contain; }
-  
-  .social-login-link + .socia-login-link {
-    margin-left: 16px; }
-  
-  .login-wrapper-footer-text {
-    font-size: 14px;
-    text-align: center; }
+    text-decoration: underline; }   
