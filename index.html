@@ -1,106 +1,71 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optimización de la Comercialización del Polen</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #fbb034;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        form {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        form input, form select {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        form button {
-            background-color: #fbb034;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        form button:hover {
-            background-color: #e89e28;
-        }
-        .chart-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>UpHoney</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+   
+                                </head>
+                                <body className='snippet-body'>
+                                <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
-<body>
-
-    <header>
-        <h1>Optimización de la Comercialización del Polen</h1>
-    </header>
-
-    <main>
-        <section>
-            <h2>Ingreso de Datos del Apicultor</h2>
-            <form id="formulario-apicultor">
-                <label for="nombre">Nombre del Apicultor:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="colmenas">Número de Colmenas:</label>
-                <input type="number" id="colmenas" name="colmenas" required>
-
-                <label for="ubicacion">Ubicación:</label>
-                <input type="text" id="ubicacion" name="ubicacion" required>
-
-                <label for="estacion">Estación del Año:</label>
-                <select id="estacion" name="estacion">
-                    <option value="primavera">Primavera</option>
-                    <option value="verano">Verano</option>
-                    <option value="otoño">Otoño</option>
-                    <option value="invierno">Invierno</option>
-                </select>
-
-                <button type="submit">Enviar Datos</button>
-            </form>
-        </section>
-
-        <section>
-            <h2>Gráfico de Recolección de Polen</h2>
-            <div class="chart-container">
-                <!-- Aquí se puede insertar un gráfico generado con JavaScript -->
-                <div>showMessage('suggest_reactivation(data)')</div>
-                <p>El gráfico se mostrará aquí.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Disponibilidad del Polen</h2>
-            <div class="chart-container">
-                <!-- Aquí se puede insertar un dashboard interactivo -->
-                <p>El dashboard se mostrará aquí.</p>
-            </div>
-        </section>
-    </main>
-
-</body>
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-7 intro-section">
+          <div class="brand-wrapper">
+            <h1><img>Logo</h1>
+          </div>
+          <div class="intro-content-wrapper">
+            <h1 class="intro-title">Bienvenid@s!</h1>
+            <p class="intro-text">Intro</p>
+            <a href="#!" class="btn btn-read-more">Read More</a>
+          </div>
+          <div class="intro-section-footer">
+            <na class="footer-nav">
+              <a href="#!">Facebook</a>
+              <a href="#!">Twitter</a>
+              <a href="#!">Gmail</a>
+            </na>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 form-section">
+          <div class="login-wrapper">
+            <h2 class="login-title">Sign in</h2>
+            <form action="#!">
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group mb-3">
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="d-flex justify-content-between align-items-center mb-5">
+                <input name="login" id="login" class="btn login-btn" type="button" value="Login">
+                <a href="#!" class="forgot-password-link">Password?</a>
+              </div>
+            </form>           
+            <p class="login-wrapper-footer-text">Need an account? <a href="#!" class="text-reset">Signup here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+                                <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>
+                                <script type='text/javascript' src='#'></script>
+                                <script type='text/javascript' src='#'></script>
+                                <script type='text/javascript' src='#'></script>
+                                <script type='text/javascript'></script>
+                                <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+                                myLink.addEventListener('click', function(e) {
+                                  e.preventDefault();
+                                });</script>
+                            
+    </body>
 </html>

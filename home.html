@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercialización de Miel</title>
+    <link rel="stylesheet" src="style1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Comercialización de Miel</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ingreso de Datos del Apicultor</h2>
+            <form id="formulario-apicultor">
+                <label for="nombre">Nombre del Apicultor:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="colmenas">Número de Colmenas:</label>
+                <input type="number" id="colmenas" name="colmenas" required>
+
+                <label for="ubicacion">Ubicación:</label>
+                <input type="text" id="ubicacion" name="ubicacion" required>
+
+                <label for="estacion">Estación del Año:</label>
+                <select id="estacion" name="estacion">
+                    <option value="primavera">Primavera</option>
+                    <option value="verano">Verano</option>
+                    <option value="otoño">Otoño</option>
+                    <option value="invierno">Invierno</option>
+                </select>
+
+                <button type="submit">Enviar Datos</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Gráfico de Recolección de Polen</h2>
+            <div class="chart-container">
+                <!-- Aquí se puede insertar un gráfico generado con JavaScript -->
+                <div>showMessage('suggest_reactivation(data)')</div>
+                <p>El gráfico se mostrará aquí.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Disponibilidad del Polen</h2>
+            <div class="chart-container">
+                <!-- Aquí se puede insertar un dashboard interactivo -->
+                <p>El dashboard se mostrará aquí.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
