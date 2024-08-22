@@ -1,7 +1,7 @@
-"""import sqlite3
+import sqlite3
 
 def get_db():
-    db = sqlite3.connect('apicultor.db')
+    db = sqlite3.connect('bd_apicultor.db')
     db.row_factory = sqlite3.Row
     return db
 
@@ -9,4 +9,4 @@ def init_db():
     db = get_db()
     with open('schema.sql', 'r') as f:
         db.executescript(f.read())
-    db.close()"""
+    db.close()
