@@ -26,8 +26,8 @@ submit.addEventListener("click", function(event) {
     .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
-        alert("Creando Cuenta...")
-        window.location.href = "../index.html";
+        alert("Gracias por Registrarte!")
+        window.location.href = "index.html";
         // ...
     })
     .catch((error) => {
