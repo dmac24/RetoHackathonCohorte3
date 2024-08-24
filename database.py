@@ -1,7 +1,7 @@
 import sqlite3
 
 def get_db():
-    db = sqlite3.connect('bd_apicultor.db')
+    db = sqlite3.connect('./database/bd_apicultor.db')
     db.row_factory = sqlite3.Row
     return db
 
