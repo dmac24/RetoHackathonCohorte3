@@ -30,12 +30,12 @@ init_sqlite_db()
 @app.route('/')
 def index():
     # Redirigir al inicio de sesión o a la página principal
-    return render_template('index.html')
+    return send_from_directory('.', 'home.html')
 
 @app.route('/home')
 def home():
     # Renderiza la página de registro
-    return render_template('home.html')
+    return send_from_directory('.', 'home.html')
 
 @app.route('/guardar', methods=['POST'])
 def guardar():

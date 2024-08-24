@@ -10,6 +10,50 @@
         <!-- fonts style -->
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap" rel="stylesheet"/>
         <link href="css/home.css" rel="stylesheet"/>
+        <style>
+          body {
+              font-family: Arial, sans-serif;
+              background-color: #f0f0f0;
+              margin: 0;
+              padding: 20px;
+          }
+  
+          .table-container {
+              width: 100%;
+              max-width: 1000px;
+              margin: auto;
+              background-color: #ffa500; /* Fondo naranja */
+              color: #000000; /* Letra negra */
+              padding: 20px;
+              border-radius: 8px;
+          }
+  
+          h2 {
+              text-align: center;
+              color: #000000; /* Letra negra */
+          }
+  
+          table {
+              width: 100%;
+              border-collapse: collapse;
+          }
+  
+          th, td {
+              border: 1px solid #000000;
+              padding: 10px;
+              text-align: center;
+          }
+  
+          th {
+              background-color: #ff8c00; /* Un tono más oscuro de naranja para el encabezado */
+              color: #000000;
+          }
+  
+          td img {
+              max-width: 700px;
+              height: auto;
+          }
+      </style>
   </head>
   
   <body class="sub_page">
@@ -59,10 +103,37 @@
           Disponibilidad del Producto
         </h2>
       </div>
-      <div class="container">
-        <Grafico>
+         <div class="container">
+          <div class="table-container">
+            <h2></h2>
+            <table>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Foto</th>
+                </tr>
+                <tr>
+                    <td>ofrece una visión clara de cuándo hay más disponibilidad de miel, ayudando en la planificación de ventas y estrategias de comercialización.
+                    </td>
+                    <td><img src="./src/disponibilidad.png" alt="Mapa de Calor"></td>
+                </tr>
+                <tr>
+                  <td>El total de la producción a traves de los años se ha mantenido constante siendo el pico mas alto el año 2014 pero se evidencia que del año 2020 en adelante a experimentado un declive generalizado
 
-         </Grafico>
+                    Los años en los que más
+                    
+                    Dado que los datos de los estados y de las colonias no se correlacionan directamente, una posible estrategia es unir las bases de datos usando el "DataTime" y "year" como puntos de referencia, junto con el año y fecha para alinear temporalmente los datos.
+                  </td>
+                  <td><img src="./src/histórico de Stock.png" alt="Mapa de Calor"></td>
+              </tr>
+
+                
+            </table>
+        </div> 
+  
+  
+          </div>
+        </div>
+     
       
     </section>
   
